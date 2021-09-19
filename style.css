@@ -16,8 +16,8 @@ html {
 body { 
 	font: 75% georgia, sans-serif;
 	line-height: 1.88889;
-	color: #555753; 
-	background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; 
+	color: #252723; 
+	background: #c2c2e6 url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; 
 	margin: 0; 
 	padding: 0;
 	}
@@ -29,21 +29,29 @@ h3 {
 	font: italic normal 1.4em georgia, sans-serif;
 	letter-spacing: 1px; 
 	margin-bottom: 0; 
-	color: #7D775C;
+	color: #3a2f01;
 	}
+
+h4 { 
+	font: normal 1.6em;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #1a0f00;
+	}
+
 a:link { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: #B7A5DF;
+	color: #37255F;
 	}
 a:visited { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: #D4CDDC;
+	color: #544D5C;
 	}
 a:hover, a:focus, a:active { 
 	text-decoration: underline; 
-	color: #9685BA;
+	color: #16053A;
 	}
 abbr {
 	border-bottom: none;
@@ -103,10 +111,12 @@ header {
 	text-align: center;
 	}
 
-.preamble {
+.titleslide {
 	clear: right; 
-	padding: 0px 10px 0 10px;
+	text-align: center;
+	padding: 0px 0px 0 0px;
 	}
+
 .supporting {	
 	padding-left: 10px; 
 	margin-bottom: 40px;
